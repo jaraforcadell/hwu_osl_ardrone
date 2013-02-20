@@ -1,0 +1,5 @@
+<launch>
+		<node pkg="visual_servoing" name="tag_detector" type="tag_detection_server" output="screen"/>
+		<node pkg="visual_servoing" name="circle_tracker" type="circle_tracker_server" output="screen"/>
+		<node pkg="visual_servoing" name="controller" type="landing_control" output="screen"/>
+</launch>

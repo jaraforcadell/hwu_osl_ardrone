@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "../msg_gen"
+  "../src/visual_servoing/msg"
+  "../msg_gen"
+  "CMakeFiles/ROSBUILD_genmsg_py"
+  "../src/visual_servoing/msg/__init__.py"
+  "../src/visual_servoing/msg/_Tag_poseAction.py"
+  "../src/visual_servoing/msg/_Tag_poseGoal.py"
+  "../src/visual_servoing/msg/_Tag_poseActionGoal.py"
+  "../src/visual_servoing/msg/_Tag_poseResult.py"
+  "../src/visual_servoing/msg/_Tag_poseActionResult.py"
+  "../src/visual_servoing/msg/_Tag_poseFeedback.py"
+  "../src/visual_servoing/msg/_Tag_poseActionFeedback.py"
+  "../src/visual_servoing/msg/_trackingAction.py"
+  "../src/visual_servoing/msg/_trackingGoal.py"
+  "../src/visual_servoing/msg/_trackingActionGoal.py"
+  "../src/visual_servoing/msg/_trackingResult.py"
+  "../src/visual_servoing/msg/_trackingActionResult.py"
+  "../src/visual_servoing/msg/_trackingFeedback.py"
+  "../src/visual_servoing/msg/_trackingActionFeedback.py"
+  "../msg/Tag_poseAction.msg"
+  "../msg/Tag_poseGoal.msg"
+  "../msg/Tag_poseActionGoal.msg"
+  "../msg/Tag_poseResult.msg"
+  "../msg/Tag_poseActionResult.msg"
+  "../msg/Tag_poseFeedback.msg"
+  "../msg/Tag_poseActionFeedback.msg"
+  "../msg/trackingAction.msg"
+  "../msg/trackingGoal.msg"
+  "../msg/trackingActionGoal.msg"
+  "../msg/trackingResult.msg"
+  "../msg/trackingActionResult.msg"
+  "../msg/trackingFeedback.msg"
+  "../msg/trackingActionFeedback.msg"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/ROSBUILD_genmsg_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

@@ -1,0 +1,14 @@
+<package>
+  <description brief="pose_control_phase_corr">
+
+     pose_control_phase_corr
+
+  </description>
+  <author>Jara</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pose_control_phase_corr</url>
+
+</package>
+
+

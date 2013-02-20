@@ -1,0 +1,18 @@
+<package>
+  <description brief="ardrone_spooler">
+
+     ardrone_spooler
+
+  </description>
+  <author>Jara</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ardrone_spooler</url>
+  <depend package="roscpp"/>
+  <depend package="ardrone_autonomy"/>
+  <depend package="ardrone_joy"/>
+  <depend package="ardrone_controller"/>
+
+</package>
+
+

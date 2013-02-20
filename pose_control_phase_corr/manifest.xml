@@ -1,0 +1,20 @@
+<package>
+  <description brief="pose_control_phase_corr">
+
+     pose_control_phase_corr
+
+  </description>
+  <author>Jara</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pose_control_phase_corr</url>
+  <depend package="roscpp"/>
+  <depend package="ardrone_autonomy"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="std_msgs"/>
+  <depend package="image_transport"/>
+</package>
+
+

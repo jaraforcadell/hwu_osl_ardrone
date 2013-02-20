@@ -1,0 +1,8 @@
+---
+---
+#feedback definition
+bool working
+float32 vel_x
+float32 vel_y
+int32 centre_x
+int32 centre_y

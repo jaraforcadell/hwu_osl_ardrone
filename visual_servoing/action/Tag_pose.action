@@ -1,0 +1,7 @@
+---
+---
+#feedback definition
+bool found
+bool foundSure
+int32 tag_x
+int32 tag_y

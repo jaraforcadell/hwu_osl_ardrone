@@ -1,0 +1,5 @@
+<launch>
+		<include file="$(find ptam)/launch/ptam.launch" />
+		<!-- <node pkg="dynamic_reconfigure" name="reconfigure_gui" type="reconfigure_gui"  output="screen"/> -->
+		<!-- <node pkg="pose_control_ptam" name="Pose Control Ptam" type="pose_control_ptam"  output="screen"/> -->
+</launch>

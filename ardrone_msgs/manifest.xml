@@ -1,0 +1,17 @@
+<package>
+  <description brief="ardrone_msgs">
+
+     ardrone_msgs
+
+  </description>
+  <author>Jara</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ardrone_msgs</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+
