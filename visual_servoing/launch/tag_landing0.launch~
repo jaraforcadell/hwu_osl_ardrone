@@ -1,6 +1,0 @@
-<launch>
-		<node pkg="ardrone_autonomy" name="driver" type="ardrone_driver" args="_realtime_navdata:=True _navdata_demo:=0 _realtime_video:=True" output="screen"/>
-		<node pkg="ardrone_spooler" name="spooler" type="spooler" output="screen"/>
-		<node pkg="ardrone_joy" name="joy" type="joy" args="-p js1"/>
-		<node pkg="image_proc" name="image_proc" type="image_proc"/>
-</launch>

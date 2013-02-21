@@ -1,7 +1,0 @@
-<launch>
-		<env name="ROS_NAMESPACE" value="/ardrone/front" />
-		<node pkg="image_proc" name="image_proc" type="image_proc"/>
-		<include file="$(find ptam)/launch/ptam.launch" />
-		<!-- <node pkg="dynamic_reconfigure" name="reconfigure_gui" type="reconfigure_gui"  output="screen"/> -->
-		<!-- <node pkg="ardrone_pose_control" name="pose_control" type="pose_control"  output="screen"/> -->
-</launch>

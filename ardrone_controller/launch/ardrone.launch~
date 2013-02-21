@@ -1,6 +1,0 @@
-<launch>
-    <node pkg="ardrone_autonomy" name="driver" type="ardrone_driver"/>
-    <node pkg="ardrone_joy" name="joy" type="joy" args="-p js1" output="screen"/>
-		<node pkg="image_view" name="image_view_front" type="image_view" args="image:=/ardrone/front/image_raw"/>
-
-</launch>

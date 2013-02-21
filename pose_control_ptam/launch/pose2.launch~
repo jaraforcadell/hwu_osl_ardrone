@@ -1,4 +1,0 @@
-<launch>
-		<include file="$(find ptam)/launch/ptam.launch" />
-		<node pkg="pose_control_ptam" name="pose_control_ptam" type="pose_control_ptam"  output="screen"/>
-</launch>

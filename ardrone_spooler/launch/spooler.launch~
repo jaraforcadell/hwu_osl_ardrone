@@ -1,6 +1,0 @@
-<launch>
-		<node pkg="ardrone_spooler" name="spooler" type="spooler"/>
-		<node pkg="ardrone_autonomy" name="driver" type="ardrone_driver"  output="screen"/>
-		<node pkg="ardrone_joy" name="joy" type="joy" args="-p js1" output="screen"/>
-		<!-- <node pkg="ardrone_controller" name="controller" type="controller"  output="screen"/> -->
-</launch>
