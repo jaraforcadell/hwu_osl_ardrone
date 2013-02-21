@@ -25,3 +25,5 @@ Makefile
 /srv_gen
 /src/ardrone_autonomy
 scripts/cache/DEBS_avail
+
+*~
